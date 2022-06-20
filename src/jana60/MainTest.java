@@ -36,6 +36,14 @@ public class MainTest {
 			System.out.println("Nella città di " + persona[i].getIndirizzo().getCitta());
 		}
 		
+		System.out.println("\nDimmi una nuova città per Persona 2");
+		String nuovaCitta = scan.nextLine();
+		
+		persona[1].getIndirizzo().setCitta(nuovaCitta);
+		
+		System.out.println("Persona 1 vive a " + persona[0].getIndirizzo().getCitta());
+		System.out.println("Persona 2 vive a " + persona[1].getIndirizzo().getCitta());
+		
 		scan.close();
 	}
 

@@ -27,8 +27,13 @@ public class Indirizzo {
 	}
 	public String getCitta() {
 	
-	return citta;
+		return citta;
 	
+	}
+	public void setCitta(String citta) {
+		
+		this.citta = citta;
+		
 	}
 
 }
