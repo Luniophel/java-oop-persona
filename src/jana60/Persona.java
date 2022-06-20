@@ -15,5 +15,20 @@ public class Persona {
 		this.indirizzo = new Indirizzo(indirizzo.getVia(), indirizzo.getNumero(), indirizzo.getCitta());
 		
 	}
+	public String getNome() {
+		
+		return nome;
+		
+	}
+	public String getCognome() {
+		
+		return cognome;
+		
+	}
+	public Indirizzo getIndirizzo() {
+		
+		return indirizzo;
+		
+	}
 
 }
